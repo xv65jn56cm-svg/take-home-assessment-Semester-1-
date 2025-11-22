@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Social Hoax Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="container">
+    <!-- Header / optional screenshot -->
+    <header class="header">
+      <h1>Social Hoax Quiz</h1>
+      <p class="subtitle">Spot the hoaxes — True or False</p>
+      <!-- Optional: show your uploaded screenshot (remove if not needed) -->
+      <img id="repoScreenshot" src="/mnt/data/10AD308C-6E15-43D3-90BF-BB37F969F056.jpeg" alt="Repo screenshot" />
+    </header>
+
+    <!-- Start screen -->
+    <section id="start-screen" class="card">
+      <h2>Welcome</h2>
+      <label class="field">
+        <span>Your name</span>
+        <input id="userName" type="text" placeholder="Enter your name" />
+      </label>
+      <button id="startBtn" class="btn primary">Start Quiz</button>
+      <p class="hint">10 questions about misinformation on social media. Select True or False, then tap Next.</p>
+    </section>
+
+    <!-- Quiz screen -->
+    <section id="quiz-screen" class="card" style="display:none;">
+      <div class="top-row">
+        <div id="progress">Question <span id="qIndex">1</span> / <span id="qTotal">10</span></div>
+        <div id="score">Score: <span id="scoreVal">0</span></div>
+      </div>
+
+      <h2 id="questionText" class="question">Question text</h2>
+
+      <div class="options">
+        <button id="trueBtn" class="btn option">True</button>
+        <button id="falseBtn" class="btn option">False</button>
+      </div>
+
+      <p id="explanation" class="explanation" style="display:none;"></p>
+
+      <div class="nav">
+        <button id="nextBtn" class="btn" style="display:none;">Next ➜</button>
+      </div>
+    </section>
+
+    <!-- Result screen -->
+    <section id="result-screen" class="card" style="display:none;">
+      <h2>Quiz complete</h2>
+      <p id="resultText"></p>
+      <div class="result-actions">
+        <button id="restartBtn" class="btn">Restart</button>
+        <button id="downloadBtn" class="btn">Download answers (JSON)</button>
+      </div>
+      <p class="small">Tip: You can host this on GitHub Pages. If you'd like results saved to Google Sheets, I can provide an Apps Script next.</p>
+    </section>
+
+    <footer class="footer">
+      <small>Built for learning how to spot misinformation.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
