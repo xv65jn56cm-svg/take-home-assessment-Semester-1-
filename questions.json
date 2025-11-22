@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "text": "If thousands of people share the same rumour, it means the rumour must be true.",
+    "answer": false,
+    "explanation": "Viral posts spread fast—even when the information is completely false."
+  },
+  {
+    "id": 2,
+    "text": "If a breaking-news post has no source listed, it’s safe to assume the information is accurate.",
+    "answer": false,
+    "explanation": "Reliable news includes verifiable sources; unsourced breaking claims should be checked."
+  },
+  {
+    "id": 3,
+    "text": "A screenshot of a tweet or message can be easily edited to spread misinformation.",
+    "answer": true,
+    "explanation": "Anyone can create fake screenshots using simple image-editing tools or apps."
+  },
+  {
+    "id": 4,
+    "text": "If a post says “Share this immediately!” it’s often a sign of a hoax or scare tactic.",
+    "answer": true,
+    "explanation": "Urgency pressures people to share before checking the facts."
+  },
+  {
+    "id": 5,
+    "text": "Posts showing dramatic photos are always real and not taken from old events.",
+    "answer": false,
+    "explanation": "Many hoaxes reuse old or unrelated images to mislead viewers."
+  },
+  {
+    "id": 6,
+    "text": "If a friend shares a post, it means the information must be true.",
+    "answer": false,
+    "explanation": "Trusted people can unknowingly share incorrect or misleading posts."
+  },
+  {
+    "id": 7,
+    "text": "Scam posts often ask for personal information like your phone number, birthday, or bank details.",
+    "answer": true,
+    "explanation": "Scammers use fake posts and forms to collect data and steal identities."
+  },
+  {
+    "id": 8,
+    "text": "Deepfake videos can make people appear to say things they never said.",
+    "answer": true,
+    "explanation": "AI can create convincing fake audio and video; always verify with trusted sources."
+  },
+  {
+    "id": 9,
+    "text": "If a post sounds too shocking, strange, or unbelievable, it should be double-checked.",
+    "answer": true,
+    "explanation": "Hoaxes often rely on exaggerated or emotional content to get shared quickly."
+  },
+  {
+    "id": 10,
+    "text": "Checking the date of a post is important to avoid spreading outdated news.",
+    "answer": true,
+    "explanation": "Old posts may be unrelated to current events and can mislead when re-shared as new."
+  }
+]
